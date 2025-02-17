@@ -35,7 +35,7 @@ jobs:
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           port: 22
           script: |
-            cd /var/www/html/jaza-Africa
+            cd www/html/jaza-Africa
             git pull origin main
             composer install --optimize-autoloader --no-dev
             php artisan migrate --force
