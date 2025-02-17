@@ -55,13 +55,13 @@
                     class="fa-solid fa-droplet"></i></button></div>
     </div>
     <div id="preloader" class="preloader"><button class="th-btn preloaderCls">Cancel Preloader</button>
-        <div class="preloader-inner"><img src="assets/img/logo3.svg" alt=""></div>
+        <div class="preloader-inner"><img src="assets/img/logo.svg" alt=""></div>
         <div id="loader" class="th-preloader">
             <div class="animation-preloader">
-                <div class="txt-loading"><span preloader-text="Heart" class="characters">Heart </span><span preloader-text="Land"
-                        class="characters">Land </span><span preloader-text="Safaris" class="characters">Safaris </span><span
-                        preloader-text="ltd" class="characters">ltd </span><span preloader-text="KE"
-                        class="characters">KE</span>
+                <div class="txt-loading"><span preloader-text="Heart" class="characters">Heart </span><span
+                        preloader-text="Land" class="characters">Land </span><span preloader-text="Safaris"
+                        class="characters">Safaris </span><span preloader-text="ltd" class="characters">ltd </span><span
+                        preloader-text="KE" class="characters">KE</span>
                 </div>
             </div>
         </div>
@@ -71,7 +71,8 @@
         <div class="sidemenu-content"><button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
             <div class="widget">
                 <div class="th-widget-about">
-                    <div class="about-logo"><a href="/"><img src="assets/img/logo2.svg" alt="Heart Land Safaris"></a>
+                    <div class="about-logo"><a href="/"><img src="assets/img/logo.svg"
+                                alt="Heart Land Safaris"></a>
                     </div>
                     <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model.
                         Appropriately create interactive infrastructures</p>
@@ -119,9 +120,11 @@
                     <div class="info-box_text">
                         <div class="icon"><img src="assets/img/icon/envelope.svg" alt="img"></div>
                         <div class="details">
-                            <p><a href="mailto:mailinfo00@Heart Land Safaris.com" class="info-box_link">mailinfo00@Heart Land Safaris.com</a>
+                            <p><a href="mailto:mailinfo00@Heart Land Safaris.com"
+                                    class="info-box_link">mailinfo00@Heart Land Safaris.com</a>
                             </p>
-                            <p><a href="mailto:support24@Heart Land Safaris.com" class="info-box_link">support24@Heart Land Safaris.com</a></p>
+                            <p><a href="mailto:support24@Heart Land Safaris.com" class="info-box_link">support24@Heart
+                                    Land Safaris.com</a></p>
                         </div>
                     </div>
                     <div class="info-box_text">
@@ -140,7 +143,7 @@
     </div>
     {{-- <div class="th-menu-wrapper onepage-nav">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="/"><img src="assets/img/logo2.svg" alt="Heart Land Safaris"></a>
+            <div class="mobile-logo"><a href="/"><img src="assets/img/logo.svg" alt="Heart Land Safaris"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
@@ -372,7 +375,7 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
-                                <div class="about-logo"><a href="/"><img src="assets/img/logo3.svg"
+                                <div class="about-logo"><a href="/"><img src="assets/img/logo.svg"
                                             alt="Heart Land Safaris"></a></div>
                                 <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital
                                     model. Appropriately create interactive infrastructures</p>
@@ -381,7 +384,8 @@
                                             class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i
                                             class="fab fa-linkedin-in"></i></a> <a href="https://www.whatsapp.com/"><i
                                             class="fab fa-whatsapp"></i></a> <a href="https://instagram.com/"><i
-                                            class="fab fa-instagram"></i></a></div>
+                                            class="fab fa-instagram"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>

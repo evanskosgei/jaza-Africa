@@ -4,7 +4,7 @@
         <div class="sidemenu-content"><button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
             <div class="widget">
                 <div class="th-widget-about">
-                    <div class="about-logo"><a href="/"><img src="assets/img/logo2.svg" alt="Heart Land Safaris"></a>
+                    <div class="about-logo"><a href="/"><img src="assets/img/logo.svg" alt="Heart Land Safaris"></a>
                     </div>
                     <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model.
                         Appropriately create interactive infrastructures</p>

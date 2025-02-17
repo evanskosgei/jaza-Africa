@@ -246,7 +246,7 @@
                             <div class="offer-banner">
                                 <div class="offer">
                                     <h6 class="box-title">Need Help? We Are Here To Help You</h6>
-                                    <div class="banner-logo"><img src="assets/img/logo2.svg" alt="Heart Land Safaris"></div>
+                                    <div class="banner-logo"><img src="assets/img/logo.svg" alt="Heart Land Safaris"></div>
                                     <div class="offer">
                                         <h6 class="offer-title">You Get Online support</h6><a class="offter-num"
                                             href="%2b256214203215.html">+256 214 203 215</a>

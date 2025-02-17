@@ -1,0 +1,45 @@
+name: Laravel Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: mbstring, xml, zip, curl, pdo, mysql
+
+      - name: Install Composer Dependencies
+        run: composer install --optimize-autoloader --no-dev
+
+      - name: Prepare Artifacts
+        run: |
+          cp .env.example .env
+          php artisan key:generate
+
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_PRIVATE_KEY }}
+          port: 22
+          script: |
+            cd /var/www/payment-backend
+            git pull origin main
+            composer install --optimize-autoloader --no-dev
+            php artisan migrate --force
+            php artisan config:cache
+            php artisan route:cache
+            php artisan view:cache
+            sudo service apache2 restart
