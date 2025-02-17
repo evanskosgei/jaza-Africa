@@ -4,7 +4,7 @@
         <div class="sidemenu-content"><button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
             <div class="widget">
                 <div class="th-widget-about">
-                    <div class="about-logo"><a href="/"><img src="assets/img/logo2.svg" alt="Tourm"></a>
+                    <div class="about-logo"><a href="/"><img src="assets/img/logo2.svg" alt="Heart Land Safaris"></a>
                     </div>
                     <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model.
                         Appropriately create interactive infrastructures</p>
@@ -52,8 +52,8 @@
                     <div class="info-box_text">
                         <div class="icon"><img src="assets/img/icon/envelope.svg" alt="img"></div>
                         <div class="details">
-                            <p><a href="mailto:mailinfo00@tourm.com" class="info-box_link">mailinfo00@tourm.com</a></p>
-                            <p><a href="mailto:support24@tourm.com" class="info-box_link">support24@tourm.com</a></p>
+                            <p><a href="mailto:mailinfo00@Heart Land Safaris.com" class="info-box_link">mailinfo00@Heart Land Safaris.com</a></p>
+                            <p><a href="mailto:support24@Heart Land Safaris.com" class="info-box_link">support24@Heart Land Safaris.com</a></p>
                         </div>
                     </div>
                     <div class="info-box_text">
@@ -131,7 +131,7 @@
     </div>
     <div class="booking-sec">
         <div class="container">
-            <form action="https://html.themeholy.com/tourm/demo/mail.php" method="POST"
+            <form action="https://html.themeholy.com/Heart Land Safaris/demo/mail.php" method="POST"
                 class="booking-form ajax-contact">
                 <div class="input-wrap">
                     <div class="row align-items-center justify-content-between">
@@ -1260,7 +1260,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-7">
                         <div class="title-area mb-md-0"><span class="sub-title">About Us Restaurant</span>
-                            <h2 class="sec-title">News & Articles From Tourm</h2>
+                            <h2 class="sec-title">News & Articles From Heart Land Safaris</h2>
                         </div>
                     </div>
                     <div class="col-md-auto"><a href="/blog" class="th-btn style4 th-icon">See More Articles</a>

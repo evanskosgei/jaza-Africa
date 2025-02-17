@@ -43,9 +43,9 @@
                         <div class="about-contact-details">
                             <h6 class="box-title">Email Address</h6>
                             <p class="about-contact-details-text"><a
-                                    href="mailto:mailinfo00@tourm.com">mailinfo00@tourm.com</a></p>
+                                    href="mailto:mailinfo00@Heart Land Safaris.com">mailinfo00@Heart Land Safaris.com</a></p>
                             <p class="about-contact-details-text"><a
-                                    href="mailto:support24@tourm.com">support24@tourm.com</a></p>
+                                    href="mailto:support24@Heart Land Safaris.com">support24@Heart Land Safaris.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div>
-                        <form action="https://html.themeholy.com/tourm/demo/mail.php" method="POST"
+                        <form action="https://html.themeholy.com/Heart Land Safaris/demo/mail.php" method="POST"
                             class="contact-form style2 ajax-contact">
                             <h3 class="sec-title mb-30 text-capitalize">Book a tour</h3>
                             <div class="row">

@@ -3,10 +3,10 @@
     <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">About Tourm</h1>
+                <h1 class="breadcumb-title">About Heart Land Safaris</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="/">Home</a></li>
-                    <li>About Tourm</li>
+                    <li>About Heart Land Safaris</li>
                 </ul>
             </div>
         </div>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-xl-5">
                     <div class="ps-xl-4">
-                        <div class="title-area mb-20"><span class="sub-title style1">Welcome To Tourm</span>
+                        <div class="title-area mb-20"><span class="sub-title style1">Welcome To Heart Land Safaris</span>
                             <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">We are world reputeted travel agency
                             </h2>
                         </div>
