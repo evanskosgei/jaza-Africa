@@ -418,9 +418,9 @@
                                     <div class="icon"><img src="assets/img/icon/envelope.svg" alt="img"></div>
                                     <div class="details">
                                         <p><a href="mailto:mailinfo00@Heart Land Safaris.com"
-                                                class="info-box_link">mailinfo00@Heart Land Safaris.com</a></p>
+                                                class="info-box_link">info@Heart Land Safaris.com</a></p>
                                         <p><a href="mailto:support24@Heart Land Safaris.com"
-                                                class="info-box_link">support24@Heart Land Safaris.com</a></p>
+                                                class="info-box_link">support@Heart Land Safaris.com</a></p>
                                     </div>
                                 </div>
                                 <div class="info-box_text">
