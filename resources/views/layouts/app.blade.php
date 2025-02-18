@@ -141,22 +141,23 @@
         <form action="#"><input type="text" placeholder="What are you looking for?"> <button
                 type="submit"><i class="fal fa-search"></i></button></form>
     </div>
-    {{-- <div class="th-menu-wrapper onepage-nav">
+    <div class="th-menu-wrapper onepage-nav">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo"><a href="/"><img src="assets/img/logo.svg" alt="Heart Land Safaris"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li class="menu-item-has-children mega-menu-wrap"><a class="active" href="/">Home</a>
+                    <li class="menu-item-has-children mega-menu-wrap">
+                        <a class="active" href="/">Home</a>
                         <ul class="sub-menu">
                             <li><a href="/">Home Travel</a></li>
-                            <li><a href="home-tour.html">Home Tour</a></li>
+                            {{-- <li><a href="home-tour.html">Home Tour</a></li>
                             <li><a href="home-agency.html">Home Agency</a></li>
                             <li><a href="home-yacht.html">Home Yacht</a></li>
                             <li><a href="home-beach.html">Home Beach</a></li>
                             <li><a href="home-resort.html">Home Resort</a></li>
                             <li><a href="home-countryside-hotel.html">Home Countryside Hotel</a></li>
-                            <li><a href="home-forest.html">Home Forest</a></li>
+                            <li><a href="home-forest.html">Home Forest</a></li> --}}
                         </ul>
                     </li>
                     <li><a href="/about">About Us</a></li>
@@ -179,7 +180,8 @@
                             <li><a href="/activities-details'">activities Details</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children"><a href="#">Pages</a>
+
+                    {{-- <li class="menu-item-has-children"><a href="#">Pages</a>
                         <ul class="sub-menu">
                             <li class="menu-item-has-children"><a href="#">Shop</a>
                                 <ul class="sub-menu">
@@ -202,7 +204,7 @@
                             <li><a href="price.html">Price Package</a></li>
                             <li><a href="error.html">Error Page</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
                     <li class="menu-item-has-children"><a href="#">Blog</a>
                         <ul class="sub-menu">
                             <li><a href="/blog">Blog</a></li>
@@ -213,7 +215,7 @@
                 </ul>
             </div>
         </div>
-    </div> --}}
+    </div>
 
     <header class="th-header header-layout1">
         <div class="header-top">
