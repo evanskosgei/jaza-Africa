@@ -39,7 +39,6 @@ class AuthUser extends Controller
     }
     public function signin(Request $request)
     {
-        logger($request->all());
         try {
             $request->validate([
                 'email'    => 'required|email',
@@ -48,10 +47,10 @@ class AuthUser extends Controller
             if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
                 return redirect()->with('success', 'Login successful');
             }
-            return back()->withErrors(['error' => 'Invalid credentials'])->withInput();
+            return back()->with(['error' => 'Invalid credentials'])->withInput();
     
         } catch (\Exception $e) {
-            return back()->withErrors(['error' => 'Something went wrong. Please try again later.']);
+            return back()->with(['error' => 'Something went wrong. Please try again later.']);
         }
     }
 }
