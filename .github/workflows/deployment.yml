@@ -37,7 +37,7 @@ jobs:
           script: |
             cd /var/www/html/jaza-Africa
             git pull origin main
-            composer install --optimize-autoloader --no-dev
+            composer install
             php artisan migrate --force
             php artisan config:cache
             php artisan route:cache

@@ -148,18 +148,7 @@
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children mega-menu-wrap">
-                        <a class="active" href="/">Home</a>
-                        {{-- <ul class="sub-menu">
-                            <li><a href="/">Home Travel</a></li>
-                            <li><a href="home-tour.html">Home Tour</a></li>
-                            <li><a href="home-agency.html">Home Agency</a></li>
-                            <li><a href="home-yacht.html">Home Yacht</a></li>
-                            <li><a href="home-beach.html">Home Beach</a></li>
-                            <li><a href="home-resort.html">Home Resort</a></li>
-                            <li><a href="home-countryside-hotel.html">Home Countryside Hotel</a></li>
-                            <li><a href="home-forest.html">Home Forest</a></li>
-                        </ul> --}}
-                    </li>
+                        <a class="active" href="/">Home</a></li>
                     <li><a href="/about">About Us</a></li>
                     <li class="menu-item-has-children">
                         <a href="#">Destination</a>
@@ -189,30 +178,6 @@
                         </ul>
                     </li>
                     <li><a href="{{ route('giftshop.index') }}">Gift Shops</a></li>
-                    {{-- <li class="menu-item-has-children"><a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item-has-children"><a href="#">Shop</a>
-                                <ul class="sub-menu">
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                    <li><a href="cart.html">Cart Page</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="tour.html">Our Tour</a></li>
-                            <li><a href="tour-details.html">Tour Details</a></li>
-                            <li><a href="resort.html">Resort page</a></li>
-                            <li><a href="resort-details.html">Resort Details</a></li>
-                            <li><a href="tour-details.html">Tour Details</a></li>
-                            <li><a href="tour-guide.html">Tour Guider</a></li>
-                            <li><a href="tour-guider-details.html">Tour Guider Details</a></li>
-                            <li><a href="faq.html">Faq Page</a></li>
-                            <li><a href="price.html">Price Package</a></li>
-                            <li><a href="error.html">Error Page</a></li>
-                        </ul>
-                    </li> --}}
                     <li class="menu-item-has-children"><a href="#">Blog</a>
                         <ul class="sub-menu">
                             <li><a href="/blog">Blog</a></li>
