@@ -55,7 +55,7 @@
                     class="fa-solid fa-droplet"></i></button></div>
     </div>
     <div id="preloader" class="preloader"><button class="th-btn preloaderCls">Cancel Preloader</button>
-        <div class="preloader-inner"><img src="assets/img/logo.svg" alt=""></div>
+        {{-- <div class="preloader-inner"><img src="assets/img/logo.svg" alt=""></div> --}}
         <div id="loader" class="th-preloader">
             <div class="animation-preloader">
                 <div class="txt-loading"><span preloader-text="Heart" class="characters">Heart </span><span
@@ -113,8 +113,8 @@
                     <div class="info-box_text">
                         <div class="icon"><img src="assets/img/icon/phone.svg" alt="img"></div>
                         <div class="details">
-                            <p><a href="tel:+01234567890" class="info-box_link">+254 757 657268</a></p>
-                            <p><a href="tel:+09876543210" class="info-box_link">+254 757 657268</a></p>
+                            <p><a href="tel:+254757657268" class="info-box_link">+254 757 657268</a></p>
+                            <p><a href="tel:+254757657268" class="info-box_link">+254 757 657268</a></p>
                         </div>
                     </div>
                     <div class="info-box_text">
@@ -149,38 +149,46 @@
                 <ul>
                     <li class="menu-item-has-children mega-menu-wrap">
                         <a class="active" href="/">Home</a>
-                        <ul class="sub-menu">
+                        {{-- <ul class="sub-menu">
                             <li><a href="/">Home Travel</a></li>
-                            {{-- <li><a href="home-tour.html">Home Tour</a></li>
+                            <li><a href="home-tour.html">Home Tour</a></li>
                             <li><a href="home-agency.html">Home Agency</a></li>
                             <li><a href="home-yacht.html">Home Yacht</a></li>
                             <li><a href="home-beach.html">Home Beach</a></li>
                             <li><a href="home-resort.html">Home Resort</a></li>
                             <li><a href="home-countryside-hotel.html">Home Countryside Hotel</a></li>
-                            <li><a href="home-forest.html">Home Forest</a></li> --}}
-                        </ul>
+                            <li><a href="home-forest.html">Home Forest</a></li>
+                        </ul> --}}
                     </li>
                     <li><a href="/about">About Us</a></li>
                     <li class="menu-item-has-children">
                         <a href="#">Destination</a>
                         <ul class="sub-menu">
-                            <li><a href="/destination">Destination</a></li>
-                            <li><a href="/destination-details">Destination Details</a></li>
+                            <li><a href="/destination">Domestic</a></li>
+                            <li><a href="/destination-details">International</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children"><a href="#">Service</a>
+                    <li class="menu-item-has-children"><a href="#">Safari Packages</a>
                         <ul class="sub-menu">
                             <li><a href="/services">Services</a></li>
                             <li><a href="/services-details">Service Details</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children"><a href="#">Activities</a>
+                    <li class="menu-item-has-children">
+                        <a href="#">Executive</a>
                         <ul class="sub-menu">
                             <li><a href="/activities">activities</a></li>
-                            <li><a href="/activities-details'">activities Details</a></li>
+                            <li><a href="/activities-details">activities Details</a></li>
                         </ul>
                     </li>
-
+                    <li class="menu-item-has-children">
+                        <a href="#">Thematic Vacations</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">activities</a></li>
+                            <li><a href="#">activities Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{{ route('giftshop.index') }}">Gift Shops</a></li>
                     {{-- <li class="menu-item-has-children"><a href="#">Pages</a>
                         <ul class="sub-menu">
                             <li class="menu-item-has-children"><a href="#">Shop</a>
